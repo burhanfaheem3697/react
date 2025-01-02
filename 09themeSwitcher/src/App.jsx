@@ -10,7 +10,7 @@ function App() {
     setThemeMode("light");
   }
   const darkTheme = () => {
-    setThemeMode("dark");
+    setThemeMode("dark"); 
   }
 
   useEffect(() => {
