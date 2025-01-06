@@ -16,6 +16,17 @@
          "export default ${TM_FILENAME_BASE};"
        ],
        "description": "React Functional Component Boilerplate"
-     }
+     },
+
+     "Print to console": {
+		"prefix": "clog",
+		"body": [
+			"console.log($1);",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+     
    }
+
 
